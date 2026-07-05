@@ -24,10 +24,12 @@ No build step. Any static host works; open `index.html` directly or serve the di
 
 ## Deployment
 
-Intended for GitHub Pages on its own subpath (e.g. `nefiger.github.io/healthy-hectare`),
-cross-linked from the main UnPoison presence. `.nojekyll` is included so Pages serves the
-files as-is. **Do not publish until the content and identity have sign-off** — the visual
-identity (see `BRAND.md`) and all copy are drafts pending review.
+**Live at https://nefiger.github.io/healthy-hectare/** — deployed via GitHub Pages
+(workflow build type; see `.github/workflows/deploy-pages.yml`). Every push to `main`
+redeploys automatically. Cross-link from the main UnPoison presence when ready.
+
+Note: the visual identity (see `BRAND.md`) and copy are still drafts pending Anna's
+sign-off — the site is live for review/hosting purposes, not yet formally approved.
 
 ## Get Involved form (§7a of the spec — Option A built)
 
